@@ -15,7 +15,7 @@ h1{
     width: 700px;
     margin: auto;
 }
-.card{
+.card , .uncovered{
     position: relative;
     background-size: contain;
     display: inline-block;
@@ -23,16 +23,26 @@ h1{
     margin: 20px 10px;
     width: 150px;
     height: 170px;
+}
+.card{
     background-image: url(../memory_img/pattern.png);
 }
-.card_name{
+.uncovered{
+    background-image: url(../memory_img/noun_air_balloon_3134741.png);
+}
+.card_name , .card_display{
     font-weight: 900;
-    display: none;
     position: absolute;
     font-family: 'Chango', cursive;
     bottom: 10px;
     left: 50%;
     transform: translateX(-50%);
+}
+.card_name{
+    display: none;
+}
+.card_display{
+    display: inline-block;
 }
 .name_baloon{
     color: purple;
