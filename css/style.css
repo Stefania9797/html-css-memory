@@ -4,12 +4,11 @@
     padding: 0;
 }
 body{
-    font-family: 'Chango', cursive;
+    font-family: 'Nerko One', cursive;
     background-color: rgb(106, 212, 245);
 }
 h1{
     color: white;
-    font-family: 'Chango', cursive;
     text-align: center;
 }
 .container{
@@ -32,7 +31,7 @@ h1{
     background-image: url(../memory_img/noun_air_balloon_3134741.png);
 }
 .card_name , .card_display{
-    font-weight: 900;
+    font-size: 18px;
     position: absolute;
     bottom: 10px;
     left: 50%;
@@ -45,7 +44,7 @@ h1{
     display: inline-block;
 }
 .name_baloon{
-    color: purple;
+    color: deeppink;
 }
 .name_bicycle{
     color: green;
