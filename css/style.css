@@ -4,6 +4,7 @@
     padding: 0;
 }
 body{
+    font-family: 'Chango', cursive;
     background-color: rgb(106, 212, 245);
 }
 h1{
@@ -33,7 +34,6 @@ h1{
 .card_name , .card_display{
     font-weight: 900;
     position: absolute;
-    font-family: 'Chango', cursive;
     bottom: 10px;
     left: 50%;
     transform: translateX(-50%);
@@ -87,4 +87,7 @@ h1{
 }
 .card:hover .card_name{
     display: inline-block;
+}
+footer{
+    text-align: center;
 }
